@@ -73,4 +73,4 @@ def muestra_comparativa_paises_anyo(poblaciones, anyo, paises) -> None:
     plt.title(titulo)
     plt.bar(paises, censos)
     plt.show()
-muestra_comparativa_paises_anyo(lee_poblacion(ruta), 2015, ('Afghanistan', 'Argentina'))
+# muestra_comparativa_paises_anyo(lee_poblacion(ruta), 2015, ('Afghanistan', 'Argentina'))
